@@ -13,6 +13,6 @@ WebStorm 是 mac 下的精品 IDE，有很多 Visual Studio 不具备的亮点�
 隐藏代码折叠的箭头：
 - [Preferences] Editor > Code Folding: 取消 Show code folding outline
 
-在方法之间显示横线：
-![image](https://cloud.githubusercontent.com/assets/1503156/6655574/4a045f08-cb3e-11e4-8572-cf07591dc102.png)
+在方法之间显示横线：  
+![image](https://cloud.githubusercontent.com/assets/1503156/6655574/4a045f08-cb3e-11e4-8572-cf07591dc102.png)  
 - [Preferences] Editor > General > Appearance: 勾选 Show method separators
