@@ -2,32 +2,32 @@
 
 常用快捷键：
 
-- 打开文件: Shift + Cmd + O
-- 打开符号: Alt + Cmd + O
-- 弹出最近关闭的文件列表：Cmd + E
-- 搜索任意: 双击 Shift
-- 跳转到定义：Cmd + B
-- 搜索所有引用：我定义的是 Shift + F12
+- 打开文件: `Shift + Cmd + O`
+- 打开符号: `Alt + Cmd + O`
+- 弹出最近关闭的文件列表：`Cmd + E`
+- 搜索任意: 双击 `Shift`
+- 跳转到定义：`Cmd + B`
+- 搜索所有引用：我定义的是 `Shift + F12`
 
-- 跳转回编辑面板: Esc
-- 切换下一个代码标签：Ctrl + Tab 或 Shift + Cmd + ]
-- 切换上一个代码标签：Shift + Cmd + [
+- 跳转回编辑面板: `Esc`
+- 切换下一个代码标签：`Ctrl + Tab` 或 `Shift + Cmd + ]`
+- 切换上一个代码标签：`Shift + Cmd + [`
 
-- 插入代码片段(Code Snippet)：Cmd + J
-- 显示方法参数说明：Cmd + P
-- 快速查看定义：Alt + Space
-- 高亮当前文件中所有选中字段：Shift + Cmd + F7 (然后Cmd + G跳转下一个)
-- 扩大选中的代码块：Alt + Up（按越多次选中的代码块范围越大）
+- 插入代码片段(Code Snippet)：`Cmd + J`
+- 显示方法参数说明：`Cmd + P`
+- 快速查看定义：`Alt + Space`
+- 高亮当前文件中所有选中字段：`Shift + Cmd + F7` (然后`Cmd + G`跳转下一个)
+- 扩大选中的代码块：`Alt + Up`（按越多次选中的代码块范围越大）
 
-- 复制(选中)行：Cmd + D
-- 上移(选中)行：Shift + Alt + Up
-- 上移(选中)语句：Shift + Cmd + Up
-- 在上面插入新行：Alt + Cmd + Enter
-- 在下面插入新行： Shift + Enter
-- 删除行：Cmd + Delete
-- 向上滚动一行(MoveUp)：我定义的是 Ctrl + Alt + Up
+- 复制(选中)行：`Cmd + D`
+- 上移(选中)行：`Shift + Alt + Up`
+- 上移(选中)语句：`Shift + Cmd + Up`
+- 在上面插入新行：`Alt + Cmd + Enter`
+- 在下面插入新行： `Shift + Enter`
+- 删除行：`Cmd + Delete`
+- 向上滚动一行(MoveUp)：我定义的是 `Ctrl + Alt + Up`
 
-- 重命名（变量等）：Shift + F6
+- 重命名（变量等）：`Shift + F6`
 
 调整 Layout 以突出编码区域，更适合笔记本和16:9显示器：
 - [Preferences] Appearance & Behavior > Appearance：勾选 Widescreen ... layout
