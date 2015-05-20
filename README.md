@@ -68,3 +68,6 @@
 
 ## 屏蔽对象定义时最后多写一个逗号引起的报错：
 - [Preference] Editor > Inspections > JavaScript > General: 取消 Last comma in object literal
+
+## 减少 jshint 报错
+- 在项目的 `.idea/jsLinters/` 目录下添加 [jshint.xml](https://raw.githubusercontent.com/jareguo/web-storm-tips/master/jshint.xml)
