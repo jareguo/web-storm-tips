@@ -71,3 +71,6 @@
 
 ## 减少 jshint 报错
 - 在项目的 `.idea/jsLinters/` 目录下添加 [jshint.xml](https://raw.githubusercontent.com/jareguo/web-storm-tips/master/jshint.xml)
+
+## Postfix Completion
+- [Preferences] Editor > General > Postfix Completion：启用你喜欢的选项
