@@ -1,4 +1,5 @@
 # WebStorm 常用技巧笔记
+[(Edit This Page)](https://github.com/jareguo/web-storm-tips/edit/master/README.md)
 
 ## 常用快捷键(Mac)：
 
