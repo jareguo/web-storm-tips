@@ -39,7 +39,8 @@
 
 其它：
 - 折叠/展开代码块：`Cmd + -` / `Cmd + +`
-- 切换搜索框的 Match Case: `Alt + C`
+- 切换搜索框的 `Match Case`: `Alt + C`
+- 切换搜索框的 `Words`: `Alt + R`
 
 ## 调整 Layout 以突出编码区域，更适合笔记本和16:9显示器：
 - [Preferences] Appearance & Behavior > Appearance：勾选 Widescreen ... layout
