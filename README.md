@@ -47,7 +47,7 @@
 - 激活搜索框 "Match Case": `Alt + C`
 - 激活搜索框 "Words": `Alt + R`
 
-## 调整 Layout 以突出编码区域，更适合笔记本和16:9显示器：
+## 调整 Layout 以突出编码区域，更适合宽屏：
 - [Preferences] Appearance & Behavior > Appearance：勾选 Widescreen ... layout
 - [Menu] View: 把 Toolbar, Tool Buttons, Status Bar, Navigation bar 全关掉
 
