@@ -47,6 +47,7 @@
 其它：
 - 激活搜索框 "Match Case": `Alt + C`
 - 激活搜索框 "Words": `Alt + R`
+- 重复最近的搜索：焦点在输入框时按 `Down`
 
 ## 调整 Layout 以突出编码区域，更适合宽屏：
 - [Preferences] Appearance & Behavior > Appearance：勾选 Widescreen ... layout
