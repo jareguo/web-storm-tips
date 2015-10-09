@@ -23,9 +23,11 @@
 
 编辑：
 - 插入代码片段(Code Snippet)：`Cmd + J`
+- 重构：`Ctrl + T`
 - 重命名（变量等）：`Shift + F6`
 - 重构预览时，从搜索结果中排除：`Delete`
 - 格式化代码：`Alt + Cmd + L`
+- 弹出 Intention Actions: `Alt + Enter`
 
 行操作：
 - 复制(选中)行：`Cmd + D`
@@ -48,6 +50,7 @@
 - 激活搜索框 "Match Case": `Alt + C`
 - 激活搜索框 "Words": `Alt + R`
 - 重复最近的搜索：焦点在输入框时按 `Down`
+- 新建草稿文件: `Cmd + Shift + N`
 
 ## 调整 Layout 以突出编码区域，更适合宽屏：
 - [Preferences] Appearance & Behavior > Appearance：勾选 Widescreen ... layout
