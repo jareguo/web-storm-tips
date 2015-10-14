@@ -96,4 +96,5 @@
 - [Preferences] Editor > General > Postfix Completion：启用你喜欢的选项
 
 ## 开启 ES6 支持
-- [Preferences] Languages & Frameworks > JavaScript：选择 `ECMAScript 6`
+- [Preferences] Languages & Frameworks > JavaScript：选择 `ECMAScript 6`  
+（需要重启 WebStorm 才能生效）
