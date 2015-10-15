@@ -98,3 +98,8 @@
 ## 开启 ES6 支持
 - [Preferences] Languages & Frameworks > JavaScript：选择 `ECMAScript 6`  
 （需要重启 WebStorm 才能生效）
+
+## 自动识别当前文件的缩进类型
+- [Preferences] Editor > Code Style：选择 Detect and use existing file indents for editing
+（需要重启 WebStorm 才能生效）
+
