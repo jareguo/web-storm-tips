@@ -103,5 +103,5 @@
 - [Preferences] Editor > Code Style：选择 Detect and use existing file indents for editing
 
 ## 滚动条快速滚动到选中位置
-- 选中该项即可  
+- 系统设置中选中该项  
 ![image](https://cloud.githubusercontent.com/assets/1503156/11030739/f9231abe-870a-11e5-93d2-404510128b17.png)
