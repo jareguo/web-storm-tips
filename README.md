@@ -1,6 +1,13 @@
 # WebStorm 常用技巧笔记
 [(Edit This Page)](https://github.com/jareguo/web-storm-tips/edit/master/README.md)
 
+## 通用技巧
+
+- 几乎在所有面板包括弹出窗口里，都能直接键入名字进行快速跳转。例如
+    - 在查找结果中增量查找
+    - 在 Outline 窗口中快速跳转
+    - 在 Project、Recent File 中快速跳转
+
 ## 常用快捷键(Mac)：
 
 导航：
@@ -9,9 +16,9 @@
 - 搜索任意：双击 `Shift`
 - 跳转到定义：`Cmd + B`
 - 搜索所有引用：我定义的是 `Shift + F12`
-- **Outline**：`Cmd + F12`
-- 弹出最近关闭的文件列表：`Cmd + E`
-    - 之后直接输入文件名可快速跳转到最近关闭的文件，找不到的话按回车则在项目中查找。
+- **弹出文件结构列表**(Outline)：`Cmd + F12`
+- 弹出最近关闭的文件列表(Recent File)：`Cmd + E`
+    - 之后直接键入文件名可快速跳转到最近关闭的文件，找不到的话按回车则在项目中查找。
 - 弹出外部资源菜单：(在 Tab 标签上) `Cmd + Click`
 
 视图：
