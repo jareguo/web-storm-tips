@@ -7,6 +7,10 @@
     - 在查找结果中增量查找
     - 在 Outline 窗口中快速跳转
     - 在 Project、Recent File 中快速跳转
+- WebStrom 作为 merge 工具  
+`/Applications/WebStorm.app/Contents/MacOS/webstorm merge $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE") $(cd $(dirname "$BASE") && pwd)/$(basename "$BASE") $(cd $(dirname "$MERGED") && pwd)/$(basename "$MERGED")`
+- WebStrom 作为 diff 工具  
+`/Applications/WebStorm.app/Contents/MacOS/webstorm diff $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE")`
 
 ## 常用快捷键(Mac)：
 
