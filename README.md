@@ -19,7 +19,8 @@
     - 文件名前面或后面加上`/`可打开目录
 - 打开符号：`Alt + Cmd + O`
 - 搜索任意：双击 `Shift`
-- 跳转到定义：`Cmd + B`
+- 跳转到实现：`Cmd + B`
+- 跳转到声明：`Cmd + Shift + B`
 - 搜索所有引用：我定义的是 `Shift + F12`
 - **弹出文件结构列表**(Outline)：`Cmd + F12`
 - 弹出最近关闭的文件列表(Recent File)：`Cmd + E`
@@ -74,10 +75,6 @@
 
 ## 隐藏代码折叠的箭头：
 - [Preferences] Editor > Code Folding: 取消 Show code folding outline
-
-## 在方法之间显示横线：  
-  ![image](https://cloud.githubusercontent.com/assets/1503156/6655574/4a045f08-cb3e-11e4-8572-cf07591dc102.png)
-- [Preferences] Editor > General > Appearance: 勾选 Show method separators
 
 ## 从项目中排除第三方文件，优化代码搜索结果：
 - [Preferences] Project > Directories: 选中不需要的文件夹，点上面的 Excluded，例如这样设置：  
