@@ -12,6 +12,16 @@
 - WebStrom 作为 diff 工具  
 `/Applications/WebStorm.app/Contents/MacOS/webstorm diff $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE")`
 
+## 允许输入中文标点
+
+WebStrom 10 开始中文标点无法输入，这是新版 JDK 的 bug，临时解决方法是
+ 1. 按下 Cmd + Shift + A
+ 2. 在弹出框中输入 jdk
+ 3. 选择 Switch IDE boot JDK，然后会列举当前**未启用的** JDK 版本
+ 4. 选择 1.8.0_45 或者更低版本的 JDK（如果没有需要自己手动安装到系统中）
+
+最后重启 WebStrom 就能输入中文标点了，不过字体渲染会稍微难看点。要切换回来的话，方法一样，只不过最后换回 builtin 版本的 JDK。
+
 ## 常用快捷键(Mac)：
 
 导航：
