@@ -7,20 +7,6 @@
     - 在查找结果中增量查找
     - 在 Outline 窗口中快速跳转
     - 在 Project、Recent File 中快速跳转
-- WebStrom 作为 merge 工具  
-`/Applications/WebStorm.app/Contents/MacOS/webstorm merge $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE") $(cd $(dirname "$BASE") && pwd)/$(basename "$BASE") $(cd $(dirname "$MERGED") && pwd)/$(basename "$MERGED")`
-- WebStrom 作为 diff 工具  
-`/Applications/WebStorm.app/Contents/MacOS/webstorm diff $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE")`
-
-## 允许输入中文标点
-
-WebStrom 10 开始中文标点无法输入，这是新版 JDK 的 bug，临时解决方法是
- 1. 按下 Cmd + Shift + A
- 2. 在弹出框中输入 jdk
- 3. 选择 Switch IDE boot JDK，然后会列举当前**未启用的** JDK 版本
- 4. 选择 1.8.0_45 或者更低版本的 JDK（如果没有需要自己手动安装到系统中）
-
-最后重启 WebStrom 就能输入中文标点了，不过字体渲染会稍微难看点。要切换回来的话，方法一样，只不过最后换回 builtin 版本的 JDK。
 
 ## 常用快捷键(Mac)：
 
@@ -35,6 +21,7 @@ WebStrom 10 开始中文标点无法输入，这是新版 JDK 的 bug，临时�
 - **弹出文件结构列表**(Outline)：`Cmd + F12`
 - 弹出最近关闭的文件列表(Recent File)：`Cmd + E`
     - 之后直接键入文件名可快速跳转到最近关闭的文件，找不到的话按回车则在项目中查找。
+- 跳转到下一查找结果：`Alt + Cmd + Down`
 - 弹出外部资源菜单：(在 Tab 标签上) `Cmd + Click`
 
 视图：
@@ -125,3 +112,21 @@ WebStrom 10 开始中文标点无法输入，这是新版 JDK 的 bug，临时�
 ## 滚动条快速滚动到选中位置
 - 系统设置中选中该项  
 ![image](https://cloud.githubusercontent.com/assets/1503156/11030739/f9231abe-870a-11e5-93d2-404510128b17.png)
+
+-----
+
+## 允许输入中文标点
+
+WebStrom 10 开始中文标点无法输入，这是新版 JDK 的 bug，临时解决方法是
+ 1. 按下 Cmd + Shift + A
+ 2. 在弹出框中输入 jdk
+ 3. 选择 Switch IDE boot JDK，然后会列举当前**未启用的** JDK 版本
+ 4. 选择 1.8.0_45 或者更低版本的 JDK（如果没有需要自己手动安装到系统中）
+
+最后重启 WebStrom 就能输入中文标点了，不过字体渲染会稍微难看点。要切换回来的话，方法一样，只不过最后换回 builtin 版本的 JDK。
+
+## WebStrom 作为 merge 工具  
+`/Applications/WebStorm.app/Contents/MacOS/webstorm merge $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE") $(cd $(dirname "$BASE") && pwd)/$(basename "$BASE") $(cd $(dirname "$MERGED") && pwd)/$(basename "$MERGED")`
+
+## WebStrom 作为 diff 工具  
+`/Applications/WebStorm.app/Contents/MacOS/webstorm diff $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE")`
