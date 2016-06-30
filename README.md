@@ -15,8 +15,8 @@
     - 文件名前面或后面加上`/`可打开目录
 - 打开符号：`Alt + Cmd + O`
 - 搜索任意：双击 `Shift`
+- 跳转到声明：`Cmd + Alt + B`
 - 跳转到实现：`Cmd + B`
-- 跳转到声明：`Cmd + Shift + B`
 - 搜索所有引用：我定义的是 `Shift + F12`
 - **弹出文件结构列表**(Outline)：`Cmd + F12`
 - 弹出最近关闭的文件列表(Recent File)：`Cmd + E`
