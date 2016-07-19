@@ -42,6 +42,8 @@
 - 重构预览时，从搜索结果中排除：`Delete`
 - 格式化代码：`Alt + Cmd + L`
 - **弹出 Intention Actions**: `Alt + Enter`
+- 同时选中下一个相同代码块：`Ctrl + G`
+- 同时选中所有相同代码块：`Ctrl + Cmd + G`
 
 行操作：
 - 复制(选中)行：`Cmd + D`
