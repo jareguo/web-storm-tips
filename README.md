@@ -11,63 +11,63 @@
 ## 常用快捷键(Mac)：
 
 导航：
-- **打开文件**：`Shift + Cmd + O` (被我改成了和 Chrome 相同的 `Cmd + O`)
+- **打开文件**：`Shift + ⌘ + O` (被我改成了和 Chrome 相同的 `⌘ + O`)
     - 文件名前面或后面加上`/`可打开目录
-- 打开符号：`Alt + Cmd + O`
+- 打开符号：`Alt + ⌘ + O`
 - 搜索任意：双击 `Shift`
-- 跳转到声明：`Cmd + Alt + B`
-- 跳转到实现：`Cmd + B`
+- 跳转到声明：`⌘ + Alt + B`
+- 跳转到实现：`⌘ + B`
 - 搜索所有引用：我定义的是 `Shift + F12`
-- **弹出文件结构列表**(Outline)：`Cmd + F12`
-- 弹出最近关闭的文件列表(Recent File)：`Cmd + E`
+- **弹出文件结构列表**(Outline)：`⌘ + F12`
+- 弹出最近关闭的文件列表(Recent File)：`⌘ + E`
     - 之后直接键入文件名可快速跳转到最近关闭的文件，找不到的话按回车则在项目中查找。
-- 跳转到下一查找结果：`Alt + Cmd + Down`
-- 弹出外部资源菜单：(在 Tab 标签上) `Cmd + Click`
-- 添加书签：`F3`，浏览书签：`Cmd + F3`
-- 跳转到代码块开头：`Alt + Cmd + [`
+- 跳转到下一查找结果：`Alt + ⌘ + Down`
+- 弹出外部资源菜单：(在 Tab 标签上) `⌘ + Click`
+- 添加书签：`F3`，浏览书签：`⌘ + F3`
+- 跳转到代码块开头：`Alt + ⌘ + [`
 - 在左右（花）括号之间跳转：`Ctrl + M`
 
 视图：
 - 跳转回编辑面板: `Esc`
-- 切换下一个代码标签：`Ctrl + Tab` 或 `Shift + Cmd + ]`
-- 切换上一个代码标签：`Shift + Cmd + [`
+- 切换下一个代码标签：`Ctrl + Tab` 或 `Shift + ⌘ + ]`
+- 切换上一个代码标签：`Shift + ⌘ + [`
 - 最大化/还原编辑面板：双击标签栏
-- 显示所有视图边栏：显示双击并按住 `Cmd`
+- 显示所有视图边栏：显示双击并按住 `⌘`
 - 关闭当前显示查找结果标签页：`Ctrl + Shift + F4`
 
 编辑：
-- 插入代码片段(Code Snippet)：`Cmd + J`
+- 插入代码片段(Code Snippet)：`⌘ + J`
 - 重构：`Ctrl + T`
 - 重命名（变量等）：`Shift + F6`
 - 重构预览时，从搜索结果中排除：`Delete`
-- 格式化代码：`Alt + Cmd + L`
+- 格式化代码：`Alt + ⌘ + L`
 - 缩进对齐：`Ctrl + Alt + I`
 - **弹出 Intention Actions**: `Alt + Enter`
 - 同时选中下一个相同代码块：`Ctrl + G`
-- 同时选中所有相同代码块：`Ctrl + Cmd + G`
+- 同时选中所有相同代码块：`Ctrl + ⌘ + G`
 
 行操作：
-- 复制(选中)行：`Cmd + D`
+- 复制(选中)行：`⌘ + D`
 - **上移(选中)行**：`Shift + Alt + Up`
-- 上移(选中)语句：`Shift + Cmd + Up`
-- 在上面插入新行：`Alt + Cmd + Enter`
+- 上移(选中)语句：`Shift + ⌘ + Up`
+- 在上面插入新行：`Alt + ⌘ + Enter`
 - 在下面插入新行： `Shift + Enter`
-- 删除行：`Cmd + Delete`
+- 删除行：`⌘ + Delete`
 
 显示：
-- 显示方法参数说明：`Cmd + P`
+- 显示方法参数说明：`⌘ + P`
 - 显示光标处的代码文档：`F1`
 - 快速查看定义：`Alt + Space`
-- 高亮当前文件中所有选中字段：`Shift + Cmd + F7` (然后`Cmd + G`跳转下一个)
+- 高亮当前文件中所有选中字段：`Shift + ⌘ + F7` (然后`⌘ + G`跳转下一个)
 - 扩大选中的代码块：`Alt + Up`（可以用来选词，按越多次选中的代码块范围越大）
-- 折叠/展开代码块：`Cmd + -/=`
-- 光标向上/向下移动同时滚动视图(Move Up)：我定义的是 `Shift + Cmd + I/K`
+- 折叠/展开代码块：`⌘ + -/=`
+- 光标向上/向下移动同时滚动视图(Move Up)：我定义的是 `Shift + ⌘ + I/K`
 
 其它：
 - 激活搜索框 "Match Case": `Alt + C`
 - 激活搜索框 "Words": `Alt + R`
 - 重复最近的搜索：焦点在输入框时按 `Down`
-- 新建草稿文件: `Cmd + Shift + N`
+- 新建草稿文件: `⌘ + Shift + N`
 
 ## 调整 Layout 以突出编码区域，更适合宽屏：
 - [Preferences] Appearance & Behavior > Appearance：勾选 Widescreen ... layout
@@ -124,7 +124,7 @@
 ## 允许输入中文标点
 
 WebStrom 10 开始中文标点无法输入，这是新版 JDK 的 bug，临时解决方法是
- 1. 按下 Cmd + Shift + A
+ 1. 按下 ⌘ + Shift + A
  2. 在弹出框中输入 jdk
  3. 选择 Switch IDE boot JDK，然后会列举当前**未启用的** JDK 版本
  4. 选择 1.8.0_45 或者更低版本的 JDK（如果没有需要自己手动安装到系统中）
