@@ -100,6 +100,9 @@
 ## 去掉 spell checking：
 - [Preference] Editor > Inspections: 把 spelling 项的复选去掉
 
+## 设置缩进和代码格式化操作：
+- [Preference] Editor > General > Smart Keys: 按需设置
+
 ## 屏蔽对象定义时最后多写一个逗号引起的报错：
 - [Preference] Editor > Inspections > JavaScript > General: 取消 Last comma in object literal
 
@@ -122,7 +125,7 @@
 
 -----
 
-## 允许输入中文标点
+## <del>允许输入中文标点</del>
 
 WebStrom 10 开始中文标点无法输入，这是新版 JDK 的 bug，临时解决方法是
  1. 按下 ⌘ + Shift + A
