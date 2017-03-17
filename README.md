@@ -46,6 +46,7 @@
 - 同时选中下一个相同代码块：`Ctrl + G`
 - 同时选中所有相同代码块：`Ctrl + ⌘ + G`
 - 一些 Unix 终端快捷键：`Ctrl + A/E/K`
+- 单纯粘贴（不自动缩进也不格式化代码）：`Shift + Alt + ⌘ + V`
 
 行操作：
 - 复制(选中)行：`⌘ + D`
@@ -124,16 +125,6 @@
 ![image](https://cloud.githubusercontent.com/assets/1503156/11030739/f9231abe-870a-11e5-93d2-404510128b17.png)
 
 -----
-
-## <del>允许输入中文标点</del>
-
-WebStrom 10 开始中文标点无法输入，这是新版 JDK 的 bug，临时解决方法是
- 1. 按下 ⌘ + Shift + A
- 2. 在弹出框中输入 jdk
- 3. 选择 Switch IDE boot JDK，然后会列举当前**未启用的** JDK 版本
- 4. 选择 1.8.0_45 或者更低版本的 JDK（如果没有需要自己手动安装到系统中）
-
-最后重启 WebStrom 就能输入中文标点了，不过字体渲染会稍微难看点。要切换回来的话，方法一样，只不过最后换回 builtin 版本的 JDK。
 
 ## WebStrom 作为 merge 工具  
 `/Applications/WebStorm.app/Contents/MacOS/webstorm merge $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE") $(cd $(dirname "$BASE") && pwd)/$(basename "$BASE") $(cd $(dirname "$MERGED") && pwd)/$(basename "$MERGED")`
