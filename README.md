@@ -128,8 +128,14 @@
 
 -----
 
-## WebStrom 作为 merge 工具  
-`/Applications/WebStorm.app/Contents/MacOS/webstorm merge $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE") $(cd $(dirname "$BASE") && pwd)/$(basename "$BASE") $(cd $(dirname "$MERGED") && pwd)/$(basename "$MERGED")`
-
 ## WebStrom 作为 diff 工具  
-`/Applications/WebStorm.app/Contents/MacOS/webstorm diff $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE")`
+```
+Command: /Applications/WebStorm.app/Contents/MacOS/webstorm
+Arguments: diff $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE")
+```
+
+## WebStrom 作为 merge 工具  
+```
+Command: /Applications/WebStorm.app/Contents/MacOS/webstorm merge
+Arguments: $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE") $(cd $(dirname "$BASE") && pwd)/$(basename "$BASE") $(cd $(dirname "$MERGED") && pwd)/$(basename "$MERGED")
+```
