@@ -130,7 +130,7 @@
 
 ## WebStrom 作为 diff 工具  
 ```
-Command: /Applications/WebStorm.app/Contents/MacOS/webstorm
+Command: /Applications/WebStorm.app/Contents/MacOS/webstorm diff
 Arguments: diff $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE")
 ```
 
